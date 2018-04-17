@@ -1,0 +1,36 @@
+{
+  "name": "jiofi-app",
+  "version": "1.0.0",
+  "description": "An app to handle multiple hotspot profiles for jiofi",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --progress --colors --watch --config ./build.config.js",
+    "build": "webpack --config ./build.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NithinSS/jiofi-app.git"
+  },
+  "keywords": [
+    "JioFi",
+    "WiFi"
+  ],
+  "author": "NithinSS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NithinSS/jiofi-app/issues"
+  },
+  "homepage": "https://github.com/NithinSS/jiofi-app#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "path": "^0.12.7",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
